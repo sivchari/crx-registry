@@ -1,0 +1,10 @@
+name: vimium
+id: dbepggeogbaibhgnhhndojpepiihcmeb
+display_name: Vimium
+description: The Hacker's Browser. Vimium provides keyboard shortcuts for navigation and control in the spirit of Vim
+homepage: https://vimium.github.io/
+repository: https://github.com/philc/vimium
+tags:
+  - productivity
+  - keyboard
+  - vim
