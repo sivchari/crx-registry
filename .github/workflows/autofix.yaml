@@ -1,0 +1,27 @@
+name: Autofix
+
+on:
+  pull_request:
+    paths:
+      - 'pkgs/**'
+
+permissions:
+  contents: read
+
+jobs:
+  autofix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Generate registry.yaml
+        run: |
+          go build -o bin/crx-registry ./cmd/crx-registry
+          ./bin/crx-registry generate
+
+      - uses: autofix-ci/action@v1

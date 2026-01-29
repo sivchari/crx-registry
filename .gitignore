@@ -1,0 +1,18 @@
+# Binaries
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Coverage
+*.out
+*.prof
+
+# Build artifacts
+dist/
+
+bin/
