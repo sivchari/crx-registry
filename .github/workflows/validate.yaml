@@ -1,0 +1,29 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pkgs/**'
+      - 'registry.yaml'
+  pull_request:
+    paths:
+      - 'pkgs/**'
+      - 'registry.yaml'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Build
+        run: go build -o bin/crx-registry ./cmd/crx-registry
+
+      - name: Validate packages
+        run: ./bin/crx-registry validate
