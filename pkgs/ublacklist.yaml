@@ -1,0 +1,10 @@
+name: ublacklist
+id: pncfbmialoiaghdehhbnbhkkgmjanfhe
+display_name: uBlacklist
+description: Blocks specific sites from appearing in Google search results. Useful for filtering out low-quality content
+homepage: https://iorate.github.io/ublacklist/
+repository: https://github.com/iorate/ublacklist
+tags:
+  - search
+  - productivity
+  - filtering
