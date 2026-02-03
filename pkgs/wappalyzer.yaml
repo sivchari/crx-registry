@@ -1,0 +1,9 @@
+name: wappalyzer
+id: gppongmhjkpfnbhagpmjfkannfbllamg
+display_name: Wappalyzer
+description: Technology profiler that identifies CMS, frameworks, ecommerce platforms, JavaScript libraries, and analytics tools used on websites
+homepage: https://www.wappalyzer.com/
+tags:
+  - developer-tools
+  - technology
+  - web-development
