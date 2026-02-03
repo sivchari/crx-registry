@@ -1,0 +1,10 @@
+name: mouse-dictionary
+id: dnclbikcihnpjohihfcmmldgkjnebgnj
+display_name: Mouse Dictionary
+description: Super fast browser dictionary. Shows word definitions instantly when hovering over text
+homepage: https://mouse-dictionary.netlify.app/
+repository: https://github.com/wtetsu/mouse-dictionary
+tags:
+  - dictionary
+  - productivity
+  - language
