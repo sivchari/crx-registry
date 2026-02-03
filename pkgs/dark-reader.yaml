@@ -1,0 +1,10 @@
+name: dark-reader
+id: eimadpbcbfnmbkopoojfekhnkhdbieeh
+display_name: Dark Reader
+description: Dark mode for every website. Eye-care browser extension that creates dark themes for websites on the fly
+homepage: https://darkreader.org/
+repository: https://github.com/darkreader/darkreader
+tags:
+  - accessibility
+  - dark-mode
+  - eye-care
