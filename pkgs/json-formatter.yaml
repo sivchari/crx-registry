@@ -1,0 +1,10 @@
+name: json-formatter
+id: bcjindcccaagfpapjjmafapmmgkkhgoa
+display_name: JSON Formatter
+description: Makes JSON easy to read with syntax highlighting, collapsible trees, clickable URLs, and dark mode support
+homepage: https://callumlocke.github.io/json-formatter/
+repository: https://github.com/callumlocke/json-formatter
+tags:
+  - developer-tools
+  - json
+  - debugging
