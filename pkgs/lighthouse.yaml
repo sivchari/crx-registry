@@ -1,0 +1,10 @@
+name: lighthouse
+id: blipmdconlkpinefehnmjammfjpmpbjk
+display_name: Lighthouse
+description: Automated auditing, performance metrics, and best practices for the web. Official Google tool
+homepage: https://developer.chrome.com/docs/lighthouse/
+repository: https://github.com/GoogleChrome/lighthouse
+tags:
+  - performance
+  - developer-tools
+  - accessibility
