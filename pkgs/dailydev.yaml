@@ -1,0 +1,10 @@
+name: dailydev
+id: jlmpjdjjbgclbocgajdjefcidcncaied
+display_name: daily.dev
+description: The homepage developers deserve. Get personalized tech news and articles on every new tab
+homepage: https://daily.dev/
+repository: https://github.com/dailydotdev/daily
+tags:
+  - news
+  - developer
+  - productivity
