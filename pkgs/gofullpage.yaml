@@ -1,0 +1,10 @@
+name: gofullpage
+id: fdpohaocaechififmbbbbbknoalclacl
+display_name: GoFullPage
+description: Full page screen capture. Capture entire web pages as images or PDFs
+homepage: https://gofullpage.com/
+repository: https://github.com/mrcoles/full-page-screen-capture-chrome-extension
+tags:
+  - screenshot
+  - productivity
+  - capture
