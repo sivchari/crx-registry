@@ -1,0 +1,10 @@
+name: octotree
+id: bkhaagjahfmjljalopjnoealnfndnagc
+display_name: Octotree
+description: GitHub on steroids. Browser extension that enhances GitHub code review and exploration with IDE-like code tree
+homepage: https://www.octotree.io/
+repository: https://github.com/ovity/octotree
+tags:
+  - github
+  - developer-tools
+  - code-review
