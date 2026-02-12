@@ -1,3 +1,19 @@
 version: 1
 packages:
+    - bitwarden-password-manage
+    - colorzilla
+    - dailydev-the-homepage-dev
+    - dark-reader
+    - deepl-translate-and-write
+    - gofullpage-full-page-scre
+    - json-formatter
+    - lighthouse
+    - mouse-dictionary
+    - octotree-github-code-tree
+    - onetab
+    - session-buddy-tab-bookmar
+    - ublacklist
     - vimium
+    - wappalyzer-technology-pro
+    - whatfont
+    - window-resizer
