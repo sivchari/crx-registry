@@ -5,14 +5,16 @@ on:
     paths:
       - 'pkgs/**'
 
-permissions:
-  contents: read
+permissions: {}
 
 jobs:
   autofix:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          persist-credentials: false
 
       - name: Setup Go
         uses: actions/setup-go@v5
@@ -20,8 +22,6 @@ jobs:
           go-version-file: go.mod
 
       - name: Generate registry.yaml
-        run: |
-          go build -o bin/crx-registry ./cmd/crx-registry
-          ./bin/crx-registry generate
+        run: make generate
 
       - uses: autofix-ci/action@v1
